@@ -1,0 +1,278 @@
+@charset "UTF-8"
+
+.hidden, h3, h2
+{
+	display: none;
+}
+
+body
+{
+	background-color: #ccc;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 960px;
+	background-color: white;
+}
+
+p
+{
+	color: white;
+	text-align: center;
+	margin: 0;
+   	font-family: "Arial";
+   	font-weight: 50px;   
+   	margin-top: 20px;    
+}
+
+header
+{
+	background-color: black;
+	height: 300px;
+}
+
+#articles
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding-right: 45px;
+	padding-left: 45px;
+}
+
+#articleLeft
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#imageLeft
+{
+	background-color: black;
+	width: 220px;
+	height: 220px;
+	margin-right: 45px;
+}
+
+#articleContentLeft
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+}
+
+
+#articleTitleLeft
+{
+	background-color: black;
+	width: 120px;
+	height: 23px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#articleTextLeft
+{
+	background-color: black;
+	height: 120px;
+	width: 600px;
+}
+
+#articleRight
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#imageRight
+{
+	background-color: black;
+	width: 220px;
+	height: 220px;
+	margin-left: 45px;
+	margin-left: auto;
+}
+
+#articleContentRight
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+#articleTitleRight
+{
+	background-color: black;
+	width: 120px;
+	height: 23px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: auto;
+}
+
+#articleTextRight
+{
+	background-color: black;
+	height: 120px;
+	width: 600px;
+}
+
+#localBusinesses
+{
+	background-color: black;
+	height: 115px;
+	margin-bottom: 80px;
+}
+
+#businesses
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 80px;
+}
+
+#logo
+{
+	background-color: black;
+	width: 138px;
+	height: 60px;
+	margin-bottom: 65px;
+}
+
+#compInfo
+{
+	background-color: black;
+	width: 138px;
+	height: 260px;
+}
+
+#exeVol
+{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	width: 960px;
+}
+
+#executives
+{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	height: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#exeTitle
+{
+	background-color: black;
+	height: 16px;
+	width: 150px;
+}
+
+#exeNames
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 600px;
+	height: 30px;
+	margin-left: auto;
+}
+
+#exeNameBox
+{
+	width: 66px;
+	height: 30px;
+	background-color: black;
+}
+
+#volunteer
+{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	height: 80px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#volTitle
+{
+	width: 313px;
+	height: 16px;
+	margin-bottom: 20px;
+	background-color: black;
+}
+
+#volNames
+{
+	width: 850px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: auto;
+}
+
+#volNameBox
+{
+	background-color: black;
+	width: 100px;
+	height: 30px;
+}
+
+footer
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#extraInfo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 25px;
+	margin-left: 25px;
+	padding-bottom: 50px;
+}
+
+#membership, #fundraising
+{
+	background-color: black;
+	height: 610px;
+	width: 425px;
+}
+
+#footer
+{
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+}
+
+#footerLogo
+{
+	background-color: black;
+	width: 75px;
+	height: 75px;
+	margin-left: 100px;
+	margin-right: 250px;
+}
+
+#footerNav
+{
+	height: 60px;
+	width: 460px;
+	background-color: black;
+	margin-top: 10px;
+	margin-right: 30px;
+}
